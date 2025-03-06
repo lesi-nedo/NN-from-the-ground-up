@@ -1,0 +1,5 @@
+In this project, we developed a Multi-Layer Perceptron (MLP) neural network from scratch to address both classification and regression tasks. 
+The classification task involved solving MONK's problems, while the regression task focused on predicting 3D coordinates (x, y, z) from the CUP dataset. 
+The final model used an MLP with task-specific activation functions (e.g., Sigmoid, LeakyReLU) and was optimized using techniques like grid search and Nesterov momentum. 
+Validation for the MONK's problems was performed using early stopping to prevent overfitting and ensure generalization. 
+For the CUP dataset, we employed a hold-out technique, splitting it into 64% training, 16% validation, and 20% internal test sets, ensuring robust evaluation.
